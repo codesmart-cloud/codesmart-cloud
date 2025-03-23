@@ -3,47 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Coding Platform</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
+    <title>CodeSmart</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-50 text-gray-900">
-
+<body class="bg-sky-500 text-white flex flex-col min-h-screen">
+    
     <!-- Hero Section -->
-    <header class="bg-indigo-600 text-white p-8 text-center">
-        <h1 class="text-4xl font-bold">Learn Python with Ease</h1>
-        <p class="mt-2 text-lg">Join our platform to master coding with interactive lessons and quizzes.</p>
-        <a href="#features" class="mt-4 inline-block bg-white text-indigo-600 py-2 px-4 rounded-lg font-semibold">Get Started</a>
+    <header class="flex flex-col items-center justify-center text-center flex-grow py-16">
+        <h1 class="text-5xl font-bold">Learn Python with Ease</h1>
+        <p class="mt-4 text-lg">Join our platform to master coding with interactive lessons and quizzes.</p>
+        <a href="#features" class="mt-6 bg-white text-sky-500 py-3 px-6 rounded-lg font-semibold">Get Started</a>
     </header>
-
+    
     <!-- Features Section -->
-    <section id="features" class="p-8">
-        <h2 class="text-3xl font-bold text-center mb-6">Features</h2>
+    <section id="features" class="bg-white text-sky-900 p-12 flex-grow">
+        <h2 class="text-3xl font-bold text-center mb-8">Features</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="bg-white shadow-lg p-6 rounded-lg">
+            <div class="bg-gray-100 shadow-lg p-6 rounded-lg">
                 <h3 class="text-xl font-semibold">Interactive Lessons</h3>
                 <p>Learn through hands-on coding exercises and examples.</p>
             </div>
-            <div class="bg-white shadow-lg p-6 rounded-lg">
+            <div class="bg-gray-100 shadow-lg p-6 rounded-lg">
                 <h3 class="text-xl font-semibold">Quizzes & Challenges</h3>
                 <p>Test your skills with quizzes and coding challenges.</p>
             </div>
-            <div class="bg-white shadow-lg p-6 rounded-lg">
+            <div class="bg-gray-100 shadow-lg p-6 rounded-lg">
                 <h3 class="text-xl font-semibold">Community Support</h3>
                 <p>Get help from a community of learners and instructors.</p>
             </div>
         </div>
     </section>
-
+    
     <!-- Call to Action Section -->
-    <section class="bg-indigo-600 text-white text-center py-8">
+    <section class="bg-sky-600 text-center py-12">
         <h2 class="text-3xl font-bold">Start Coding Today!</h2>
-        <a href="https://codesmart.cloud" class="mt-4 inline-block bg-white text-indigo-600 py-2 px-4 rounded-lg font-semibold">Join Now</a>
+        <a href="https://codesmart.cloud" class="mt-4 inline-block bg-white text-sky-500 py-3 px-6 rounded-lg font-semibold">Join Now</a>
     </section>
-
-    <!-- Footer -->
-    <footer class="bg-gray-800 text-white text-center py-4">
-        <p>&copy; 2025 Your Coding Platform | <a href="mailto:contact@codesmart.cloud">Contact</a></p>
+    
+    <!-- Footer (Sticky at Bottom) -->
+    <footer class="bg-sky-700 text-center py-4 mt-auto">
+        <p>&copy; 2025 Your Coding Platform | <a href="mailto:contact@codesmart.cloud" class="underline">Contact</a></p>
     </footer>
-
+    
 </body>
 </html>
+
